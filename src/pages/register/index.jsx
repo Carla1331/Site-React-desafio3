@@ -45,7 +45,7 @@ return (<>
             <Column>
                 <Wrapper>
                 <TitleLogin>Comece agora grátis</TitleLogin>
-                <SubtitleLogin>Crie sua conta e make the change.</SubtitleLogin>
+                <SubtitleLogin>Crie sua conta e make the change._</SubtitleLogin>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <Input placeholder="Nome Completo" leftIcon={<MdEmail />} name="nome"  control={control} />
                     {errors.email && <span>Nome é obrigatório</span>}

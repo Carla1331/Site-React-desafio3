@@ -24,10 +24,10 @@ export const Column = styled.div`
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
 `
+
 export const Title = styled.h2`
     font-family: 'Open Sans';
     font-style: normal;
@@ -74,6 +74,7 @@ export const InfoLogin  = styled.p`
     line-height: 19px;
 
     color: white;
+    display: inline; 
 ` 
 
 export const LoginText =  styled.p`
@@ -84,5 +85,6 @@ export const LoginText =  styled.p`
     line-height: 19px;
 
     color: #23DD7A;
+    display: inline; 
 `
 
